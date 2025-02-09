@@ -5,10 +5,14 @@
 public class Main {
     public static void main(String[] args) {
 
+        // declare variables
         double itemPrice = 35;
         double TAX_RATE = 0.05;
+
+        // logic
         double salesTax = itemPrice * TAX_RATE;
 
+        // print output
         System.out.println("The sales tax of your item is: $" + salesTax);
 
     }
